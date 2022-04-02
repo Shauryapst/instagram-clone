@@ -1,1 +1,43 @@
+.app{
+    height: 100vh;
+    align-items: center;
+}
+.app__header{
+    background-color: #ffffff;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.0975);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 50px;
+    box-sizing: border-box;
+    z-index: 2;
+    
+}
+.app__header__img{
+    object-fit: contain;
+    height: 50px;
+    position: relative;
+    background: #ffffff;
+}
+.app__header__search{
+  background-color: #fafafa;
+  padding: 3px 20px;
+  padding-left: 25px;
+  height: 30px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.0975);
+  border-radius: 3px;
+  font-size: 14px;
+}
 
+.post__container{
+    margin: 100px auto 0 auto;
+    position:relative;
+    justify-content: space-around;
+    max-width: 700px;
+}
