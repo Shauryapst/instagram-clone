@@ -1,0 +1,15 @@
+.story{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    margin: 0;
+}
+
+.story__image{
+  width: 64px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border: 1px solid #b1b1b1;
+  border-radius: 50%;
+}
